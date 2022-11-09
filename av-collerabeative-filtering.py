@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import statistics
 import matplotlib.pyplot as plt
 
 data = pd.read_csv("./archive-1/rating.csv")
