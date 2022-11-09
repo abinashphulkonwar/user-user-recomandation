@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import statistics
+import matplotlib.pyplot as plt
 
 
 
@@ -21,7 +22,6 @@ ratings_per_user = ratings.groupby('user_id')["rating"].count()
 mean1 = statistics.mean(ratings_per_user.tolist())
 print(mean1)
 
-import matplotlib.pyplot as plt
 
 #ratings_per_user.hist(bins=20, range=(0,1000))
 
